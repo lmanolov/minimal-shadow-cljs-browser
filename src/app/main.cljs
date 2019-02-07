@@ -1,6 +1,7 @@
 
 (ns app.main
-  (:require [app.lib :as lib]))
+  (:require [app.lib :as lib]
+    ["recharts" :refer (ResponsiveContainer BarChart Bar PieChart Pie Legend Tooltip Cell XAxis YAxis LabelList ComposedChart Line)]))
 
 (def a 1)
 
